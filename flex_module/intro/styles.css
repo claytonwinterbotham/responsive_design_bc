@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #2C73D2;
+    color: #FFF;
+    margin: 0;
+    text-align: center;
+}
+
+.flex-container {
+    align-items: flex-start;
+    border: 10px solid #F9F871;
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    min-height: 50vh;
+    margin: 0 auto;
+    padding: .25em;
+}
+
+.flex-item {
+    background: #8BEE86;
+    color: #424656;
+    margin: .5em;
+    padding: .5em;
+    width: 200px;
+}
+
+.flex-item-1 {
+    background: plum;
+
+}
+
+.flex-item-2 {
+    
+}
+
+.flex-item-3 {
+    margin-top: auto;
+}
